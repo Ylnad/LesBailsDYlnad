@@ -1,0 +1,182 @@
+/* Accueil */
+
+#salut
+{	text-align: center;}
+#foule
+{	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+	color: #fcef9b;
+	margin: 0px 0px 20px 0px;}
+.murge
+{	font-size: medium;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	width: 100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;}
+#marrakechh
+{	text-align: center;}
+#marrakech
+{	max-width: 60%;
+	max-height: 40vh;
+	border: #fcef9b solid 3px;
+	box-shadow: 6px 6px 6px #B0A76C;}
+
+/* Guides Donjons */
+
+#guided
+{	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	max-width: 90%;}
+.img_boss_g
+{	height: 200px;}
+
+/* Pano de Classe */
+
+.pdc1
+{	max-width: 100%;
+	text-align: center;}
+.pdc1 figcaption
+{	font-weight: bold;}
+.pdc2
+{	display: flex;
+	justify-content: center;}
+.pdc3
+{	width: 20%;
+	margin: 10px 0px 10px 0px;}
+.pdc5
+{	width: 10%;
+	margin: 10px 0px 10px 0px;}
+.pdc4
+{	width: 100%;}
+
+/* Apparence */
+
+.appar1					/* section */
+{	max-width: 100%;
+	text-align: center;}
+.appar2					/* div */
+{	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;}
+.appar3					/* figure */
+{	max-width: 20%;
+	margin: 0px 0px 0px 0px;}
+.appar4					/* img */
+{	max-width: 100%;}
+.appar5					/* a */
+{	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	text-decoration: none;}
+.appar6					/* figcaption */
+{	display: none;
+	text-align: left;}
+.appar3:hover .appar6	/* figcaption survolé */
+{  	display: block;}
+.appar7					/* p */
+{	font-weight: bold;
+	font-size: 20px}
+.appar8				/* div h2 et p */
+{	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 26px;
+	margin:  5px 0px 5px 0px;
+	color: #fcef9b;
+	clear: both;}
+.img_titre
+{	height: 40px;}
+
+/*Sommaire Apparence*/
+
+#sommairappar
+{	text-align: center;}
+.sommaireappar
+{	overflow: auto;
+	display: inline-block;
+	border : 1px solid #ffffff;}
+.sommaireappar li
+{	font-size: 14px;
+	margin-right: 10px;
+	text-align: left;}
+.sommaireappar a
+{ 	font-size: 14px;
+	color: #ffffff;
+	font-weight: normal;}
+.sommaireappar a:hover
+{	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;}
+
+/* Incarnations */
+
+.incarnationss
+{	max-width: 100%;
+	text-align: center;}
+.incarnations
+{	display: flex;
+	justify-content: center;}
+.incarnation
+{	max-width: 20%;
+	margin: 10px 0px 10px 0px;}
+.incarnatio
+{	max-width: 100%;}
+
+.incar_feu
+{	color: red;}
+.incar_eau
+{	color: #00BFFF;}
+.incar_terre
+{	color: #9C661F;}
+.incar_air
+{	color: #5DFC0A;}
+.incar_multi
+{	color: #9B30FF;}
+.incar_neutre
+{	color: grey;}
+
+
+/* Boufbowl */
+
+.terrain
+{	max-width: 45%;}
+#terrrain
+{	display: flex;
+	justify-content: center;}
+.boufballe_1
+{	float: right}
+.boufballe_2
+{	display: none;}
+.boufballe_1:hover + .boufballe_2
+{	display: block;
+	position: absolute;
+	border: solid 3px white;
+	right: 0;}
+.bouf2					/* div sort*/
+{	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;}
+.bouf3					/* figure sort */
+{	max-width: 30%;
+	margin: 0px 0px 0px 0px;}
+.bouf4					/* img sort*/
+{	max-width: 100%;}
+
+/* Nouveau perso */
+
+.nouveau_perso a
+{	font-size: 16px;
+	color: #ffffff;
+	font-weight: normal;}
+.nouveau_perso a:hover
+{	font-style: normal;
+	font-weight: bold;
+	color: #ffffff;}
