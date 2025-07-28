@@ -56,6 +56,35 @@
 .pdc4
 {	width: 100%;}
 
+/* Pano de Classe
+
+.pdc1, .pdc7
+{	max-width: 100%;
+	text-align: center;}
+.pdc1 figcaption, .pdc7 figcaption
+{	font-weight: bold;}
+.pdc2
+{	display: flex;
+	justify-content: center;}
+.pdc3
+{	width: 20%;
+	margin: 10px 0px 10px 0px;}
+.pdc4
+{	width: 100%;}
+
+.pdc5
+{	display: flex;}
+.pdc6
+{	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;}
+.pdc7
+{	display: flex;}
+.pdc8
+{	width: 90%;
+	margin: 10px 0px 10px 0px;} */
+
 /* Apparence */
 
 .appar1					/* section */
